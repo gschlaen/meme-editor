@@ -1,0 +1,79 @@
+.meme-container {
+    display: flex;
+  }
+  form {
+    background: #7f66b9;
+    text-align: center;
+    padding-top: 20px;
+    width: 50%;
+  }
+  input,
+  button {
+    width: 80%;
+    height: 40px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+  }
+  input[type="text"]{
+    padding: 5px 8px;
+    margin-top: 30px;
+  }
+  input[type="color"]{
+    width: 100px;
+    padding: 0;
+  }
+  button {
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #7f66b9;
+    font-weight: bold;
+    margin-top: 100px;
+    border-radius: 30px;
+  }
+  button:hover {
+    background-color: #572db8;
+    color: #fcfcfc;
+  }
+  .meme {
+    position: relative;
+  }
+  .meme > img {
+    height: 90vh;
+    background: cover;
+    margin-bottom: -5px;
+    background-repeat: no-repeat;
+  }
+  .meme > h2 {
+    cursor: pointer;
+    position: absolute;
+    max-width: 36em;
+    font-size: 36px;
+    text-align: center;
+    left: 49%;
+    transform: translateX(-50%);
+    margin: 0.3em 0;
+    padding: 0;
+    font-family: impact, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+      -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+      2px 2px 5px #000;
+  }
+  .meme > .top {
+    top: 0.1em;
+  }
+  .meme > .bottom {
+    bottom: 0.1em;
+  }
+  
+  .settings {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .settings div {
+    margin-right: 20px;
+  }
